@@ -7,7 +7,6 @@ public class ContaTerminal {
         
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        //Exibir as mensagems para nosso usuário
         System.out.println("Seja bem-vindo ao banco digital");
 
         System.out.println("Por favor, informe seu nome completo: ");
