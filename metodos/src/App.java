@@ -5,9 +5,9 @@ public class App {
         String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
         System.out.println(nomeCompleto);
 
-        String numero1 = "5";
-        String numero2 = "10";
-        String somar = somar(numero1, numero2);
+        int numero1 = 5;
+        int numero2 = 10;
+        int somar = somar(numero1, numero2);
         System.out.println(somar);
     }
 
@@ -15,7 +15,8 @@ public class App {
         return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
     }
 
-    public static String somar (String numero1, String numero2) {
-        return "Resultado do método " + numero1.concat(" ").concat(numero2);
+    public static int somar (int numero1, int numero2) {
+        return numero1*numero2;
+        
     }
 }
